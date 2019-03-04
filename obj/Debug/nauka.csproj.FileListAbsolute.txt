@@ -1,0 +1,13 @@
+C:\Users\Kubus\source\repos\nauka\nauka\bin\Debug\nauka.exe.config
+C:\Users\Kubus\source\repos\nauka\nauka\bin\Debug\nauka.exe
+C:\Users\Kubus\source\repos\nauka\nauka\bin\Debug\nauka.pdb
+C:\Users\Kubus\source\repos\nauka\nauka\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\Kubus\source\repos\nauka\nauka\bin\Debug\Bunifu.Core.dll
+C:\Users\Kubus\source\repos\nauka\nauka\obj\Debug\nauka.csprojAssemblyReference.cache
+C:\Users\Kubus\source\repos\nauka\nauka\obj\Debug\nauka.Form1.resources
+C:\Users\Kubus\source\repos\nauka\nauka\obj\Debug\nauka.Properties.Resources.resources
+C:\Users\Kubus\source\repos\nauka\nauka\obj\Debug\nauka.csproj.GenerateResource.cache
+C:\Users\Kubus\source\repos\nauka\nauka\obj\Debug\nauka.csproj.CoreCompileInputs.cache
+C:\Users\Kubus\source\repos\nauka\nauka\obj\Debug\nauka.csproj.CopyComplete
+C:\Users\Kubus\source\repos\nauka\nauka\obj\Debug\nauka.exe
+C:\Users\Kubus\source\repos\nauka\nauka\obj\Debug\nauka.pdb
