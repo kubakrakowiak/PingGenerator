@@ -5,7 +5,7 @@ C# ping generator by Jakub
 
 
 ### I'll add
-#### Progres Circle will work in future
-#### Bar witch is used for dial number of threads.
+#### - Progres Circle will work in future
+#### - Bar witch is used for dial number of threads.
 
 
