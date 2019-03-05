@@ -29,7 +29,8 @@ namespace nauka
 
         private void bunifuRange1_RangeChanged(object sender, EventArgs e)
         {
-            
+            int ilosc = pasek_count.RangeMax - pasek_count.RangeMin;
+            ilosc_pakietow_label.Text = ilosc.ToString();
         }
 
         private void bunifuThinButton21_Click(object sender, EventArgs e)
@@ -39,15 +40,22 @@ namespace nauka
 
         private void bunifuFlatButton1_Click(object sender, EventArgs e)
         {
+            int kolo = 100;
+            kolo = kolo / 10;
+            int ilosc = pasek_count.RangeMax - pasek_count.RangeMin;
+            int packet_size=pasek_packet_size.RangeMax-pasek_packet_size.RangeMin;
             try
             {
-                for (int i = 0; i < 4; i++)
+                for (int i = 0; i < ilosc; i++)
                 {
                     using (Ping p = new Ping())
                     {
-                          string adres = ipadress.Text;
-                          wynik.Items.Add(p.Send(adres).RoundtripTime.ToString() + "ms\n");
+                        
+                        string adres = ipadress.Text;
+                        wynik.Items.Add(p.Send(adres, 255, BitConverter.GetBytes(packet_size)).RoundtripTime.ToString() + "ms\n, pakiet o wielkości = " + packet_size);
                     }
+                    Thread.Sleep(100);
+
                 }
             }
             catch (Exception )
@@ -57,6 +65,10 @@ namespace nauka
 
         }
 
-
+        private void pasek_packet_size_RangeChanged(object sender, EventArgs e)
+        {
+            int wielkosc = pasek_packet_size.RangeMax - pasek_packet_size.RangeMin;
+            wielkosc_pakietu_label.Text = wielkosc.ToString();
+        }
     }
 }
